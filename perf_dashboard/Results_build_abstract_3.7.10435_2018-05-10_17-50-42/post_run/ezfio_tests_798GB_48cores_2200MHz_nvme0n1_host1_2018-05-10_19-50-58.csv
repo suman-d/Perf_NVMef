@@ -1,0 +1,15 @@
+Type,Write %,Block Size,Threads,Queue Depth/Thread,IOPS,Bandwidth (MB/s),Read Latency (us),Write Latency (us),Timestamp,Timestamp_ms, Time_date, Test_Name
+Rand,0,4096,1,1,9632,37.63,102.999543022,0.0,2018-05-10_20-22-48,1525963968462,Thu May 10 20:22:48 2018,Latency Test Sustained 4KB Random Read Tests by Number of Threads
+Rand,0,4096,2,1,19391,75.74,102.497362072,0.0,2018-05-10_20-24-59,1525964099579,Thu May 10 20:24:59 2018,Latency Test Sustained 4KB Random Read Tests by Number of Threads
+Rand,0,4096,4,1,39385,153.85,101.038008529,0.0,2018-05-10_20-27-10,1525964230714,Thu May 10 20:27:10 2018,Latency Test Sustained 4KB Random Read Tests by Number of Threads
+Rand,0,4096,8,1,76167,297.53,104.450395419,0.0,2018-05-10_20-29-21,1525964361844,Thu May 10 20:29:21 2018,Latency Test Sustained 4KB Random Read Tests by Number of Threads
+Rand,0,4096,16,1,148468,579.95,107.195662189,0.0,2018-05-10_20-31-32,1525964492993,Thu May 10 20:31:32 2018,Latency Test Sustained 4KB Random Read Tests by Number of Threads
+Rand,0,4096,32,1,271805,1061.74,117.088107305,0.0,2018-05-10_20-33-44,1525964624102,Thu May 10 20:33:44 2018,Latency Test Sustained 4KB Random Read Tests by Number of Threads
+Rand,0,4096,64,1,459780,1796.01,138.529783709,0.0,2018-05-10_20-35-55,1525964755277,Thu May 10 20:35:55 2018,Latency Test Sustained 4KB Random Read Tests by Number of Threads
+Rand,100,4096,1,1,33671,131.53,0.0,29.18617271,2018-05-10_20-38-06,1525964886341,Thu May 10 20:38:06 2018,Latency Test Sustained 4KB Random Write Tests by Number of Threads
+Rand,100,4096,2,1,66772,260.83,0.0,29.468424865,2018-05-10_20-40-17,1525965017461,Thu May 10 20:40:17 2018,Latency Test Sustained 4KB Random Write Tests by Number of Threads
+Rand,100,4096,4,1,122758,479.53,0.0,32.071289754,2018-05-10_20-42-28,1525965148604,Thu May 10 20:42:28 2018,Latency Test Sustained 4KB Random Write Tests by Number of Threads
+Rand,100,4096,8,1,173514,677.79,0.0,45.583423973,2018-05-10_20-44-39,1525965279726,Thu May 10 20:44:39 2018,Latency Test Sustained 4KB Random Write Tests by Number of Threads
+Rand,100,4096,16,1,209303,817.59,0.0,75.87213568,2018-05-10_20-46-50,1525965410829,Thu May 10 20:46:50 2018,Latency Test Sustained 4KB Random Write Tests by Number of Threads
+Rand,100,4096,32,1,219435,857.17,0.0,145.139612603,2018-05-10_20-49-01,1525965541939,Thu May 10 20:49:01 2018,Latency Test Sustained 4KB Random Write Tests by Number of Threads
+Rand,100,4096,64,1,220541,861.49,0.0,289.484973761,2018-05-10_20-51-13,1525965673044,Thu May 10 20:51:13 2018,Latency Test Sustained 4KB Random Write Tests by Number of Threads

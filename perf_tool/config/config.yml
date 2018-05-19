@@ -1,0 +1,26 @@
+appliance:
+    ip: 10.116.86.21
+    user: root
+    passwd: welcome
+
+storage_config:
+    no_ssds_per_group: 1
+    no_ssd_group: 12
+    no_targets: 1
+    no_namespace_per_target: 1
+    namespace_blocksize: 512
+    ssd_group_chunk_size: 'null'
+
+initiator1:
+    ip: localhost
+    user: root
+    passwd: welcome
+    portals: [1.1.1.11, 2.2.2.11]
+    name: "host1"
+
+initiator2:
+    ip: 10.116.86.53
+    user: root
+    passwd: welcome
+    portals: [3.3.3.11, 4.4.4.11]
+    name: "host2"

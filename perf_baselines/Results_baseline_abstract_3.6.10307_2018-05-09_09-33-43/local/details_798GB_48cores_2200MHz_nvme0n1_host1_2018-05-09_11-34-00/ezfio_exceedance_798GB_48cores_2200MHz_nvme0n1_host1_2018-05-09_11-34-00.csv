@@ -1,0 +1,14 @@
+Drives,/dev/nvme0n1
+Model,NVMF-DM-DEV
+Serial,Abstract Targets
+AvailCapacity,744,GiB
+TestedCapacity,744,GiB
+Targets,1
+EachTargetSize,744,GiB
+CPU,Intel Xeon CPU E5-2650 v4 @ 2.20GHz
+Cores,48
+Frequency,2200
+OS,Linux host1 4.9.64 #1 SMP Sun Nov 26 09:05:27 IST 2017 x86_64 x86_64
+FIOVersion,fio-3.2-72-ge80d
+QD1 Read Exceedance,,QD1 Write Exceedance,,,QD4 Read Exceedance,,QD4 Write Exceedance,,,QD16 Read Exceedance,,QD16 Write Exceedance,,,QD32 Read Exceedance,,QD32 Write Exceedance
+rdusec,rdpct,wrusec,wrpct,,rdusec,rdpct,wrusec,wrpct,,rdusec,rdpct,wrusec,wrpct,,rdusec,rdpct,wrusec,wrpct

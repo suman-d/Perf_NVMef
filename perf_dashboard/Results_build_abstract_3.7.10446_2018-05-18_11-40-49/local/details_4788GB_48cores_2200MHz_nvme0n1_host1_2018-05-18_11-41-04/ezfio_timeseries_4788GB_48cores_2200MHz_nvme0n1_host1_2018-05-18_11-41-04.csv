@@ -1,0 +1,13 @@
+Drives,/dev/nvme0n1:/dev/nvme1n1:/dev/nvme2n1:/dev/nvme3n1:/dev/nvme4n1:/dev/nvme5n1
+Model,NVMF-DM-DEV
+Serial,Abstract Targets
+AvailCapacity,4464,GiB
+TestedCapacity,4464,GiB
+Targets,6
+EachTargetSize,744,GiB
+CPU,Intel Xeon CPU E5-2650 v4 @ 2.20GHz
+Cores,48
+Frequency,2200
+OS,Linux host1 4.9.64 #1 SMP Sun Nov 26 09:05:27 IST 2017 x86_64 x86_64
+FIOVersion,fio-3.2-72-ge80d
+IOPS

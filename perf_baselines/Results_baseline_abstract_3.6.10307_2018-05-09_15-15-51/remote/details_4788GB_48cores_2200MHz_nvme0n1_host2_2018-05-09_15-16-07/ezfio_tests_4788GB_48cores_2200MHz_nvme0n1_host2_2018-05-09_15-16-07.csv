@@ -1,0 +1,49 @@
+Type,Write %,Block Size,Threads,Queue Depth/Thread,IOPS,Bandwidth (MB/s),Read Latency (us),Write Latency (us),Timestamp,Timestamp_ms,Time_date,Test_Name
+Seq,0,512,1,256,277475,135.49,922.231800979,0.0,2018-05-09_15-18-18,1525859298088,Wed May  9 15:18:18 2018,Sustained Multi-Threaded Sequential Read Tests by Block Size
+Seq,0,1024,1,256,276459,269.98,925.617640296,0.0,2018-05-09_15-20-29,1525859429191,Wed May  9 15:20:29 2018,Sustained Multi-Threaded Sequential Read Tests by Block Size
+Seq,0,2048,1,256,274239,535.62,933.114421336,0.0,2018-05-09_15-22-40,1525859560296,Wed May  9 15:22:40 2018,Sustained Multi-Threaded Sequential Read Tests by Block Size
+Seq,0,4096,1,256,278727,1088.78,918.082657559,0.0,2018-05-09_15-24-51,1525859691421,Wed May  9 15:24:51 2018,Sustained Multi-Threaded Sequential Read Tests by Block Size
+Seq,0,8192,1,256,264027,2062.71,969.221170323,0.0,2018-05-09_15-27-02,1525859822529,Wed May  9 15:27:02 2018,Sustained Multi-Threaded Sequential Read Tests by Block Size
+Seq,0,16384,1,256,246663,3854.12,1037.48990503,0.0,2018-05-09_15-29-13,1525859953629,Wed May  9 15:29:13 2018,Sustained Multi-Threaded Sequential Read Tests by Block Size
+Seq,0,32768,1,256,173322,5416.30,1476.54922023,0.0,2018-05-09_15-31-24,1525860084729,Wed May  9 15:31:24 2018,Sustained Multi-Threaded Sequential Read Tests by Block Size
+Seq,0,65536,1,256,83055,5190.97,3081.8815774,0.0,2018-05-09_15-33-35,1525860215843,Wed May  9 15:33:35 2018,Sustained Multi-Threaded Sequential Read Tests by Block Size
+Seq,0,131072,1,256,41812,5226.50,6122.16962685,0.0,2018-05-09_15-35-46,1525860346961,Wed May  9 15:35:46 2018,Sustained Multi-Threaded Sequential Read Tests by Block Size
+Rand,0,512,16,16,1746835,852.95,145.980713714,0.0,2018-05-09_15-37-58,1525860478079,Wed May  9 15:37:58 2018,Sustained Multi-Threaded Random Read Tests by Block Size
+Rand,0,1024,16,16,1701284,1661.41,149.898975334,0.0,2018-05-09_15-40-09,1525860609182,Wed May  9 15:40:09 2018,Sustained Multi-Threaded Random Read Tests by Block Size
+Rand,0,2048,16,16,1348646,2634.07,189.221862819,0.0,2018-05-09_15-42-20,1525860740304,Wed May  9 15:42:20 2018,Sustained Multi-Threaded Random Read Tests by Block Size
+Rand,0,4096,16,16,500600,1955.47,510.797379689,0.0,2018-05-09_15-44-31,1525860871437,Wed May  9 15:44:31 2018,Sustained Multi-Threaded Random Read Tests by Block Size
+Rand,0,8192,16,16,267270,2088.05,957.135770911,0.0,2018-05-09_15-46-42,1525861002584,Wed May  9 15:46:42 2018,Sustained Multi-Threaded Random Read Tests by Block Size
+Rand,0,16384,16,16,140645,2197.58,1819.35346831,0.0,2018-05-09_15-48-53,1525861133697,Wed May  9 15:48:53 2018,Sustained Multi-Threaded Random Read Tests by Block Size
+Rand,0,32768,16,16,73826,2307.05,3466.56761818,0.0,2018-05-09_15-51-04,1525861264831,Wed May  9 15:51:04 2018,Sustained Multi-Threaded Random Read Tests by Block Size
+Rand,0,65536,16,16,37309,2331.81,6818.67287505,0.0,2018-05-09_15-53-21,1525861401441,Wed May  9 15:53:21 2018,Sustained Multi-Threaded Random Read Tests by Block Size
+Rand,0,131072,16,16,20087,2510.82,12739.7649062,0.0,2018-05-09_15-55-32,1525861532096,Wed May  9 15:55:32 2018,Sustained Multi-Threaded Random Read Tests by Block Size
+Seq,100,512,1,1,34967,17.07,0.0,28.174971692,2018-05-09_15-57-43,1525861663136,Wed May  9 15:57:43 2018,Sequential Write Tests with Queue Depth=1 by Block Size
+Seq,100,1024,1,1,33604,32.82,0.0,29.380393737,2018-05-09_15-59-54,1525861794253,Wed May  9 15:59:54 2018,Sequential Write Tests with Queue Depth=1 by Block Size
+Seq,100,2048,1,1,32275,63.04,0.0,30.588117191,2018-05-09_16-02-05,1525861925366,Wed May  9 16:02:05 2018,Sequential Write Tests with Queue Depth=1 by Block Size
+Seq,100,4096,1,1,31475,122.95,0.0,31.361135947,2018-05-09_16-04-16,1525862056470,Wed May  9 16:04:16 2018,Sequential Write Tests with Queue Depth=1 by Block Size
+Seq,100,8192,1,1,19354,151.20,0.0,50.769533401,2018-05-09_16-06-27,1525862187582,Wed May  9 16:06:27 2018,Sequential Write Tests with Queue Depth=1 by Block Size
+Seq,100,16384,1,1,16970,265.16,0.0,58.151886453,2018-05-09_16-08-38,1525862318678,Wed May  9 16:08:38 2018,Sequential Write Tests with Queue Depth=1 by Block Size
+Seq,100,32768,1,1,12311,384.71,0.0,80.289616413,2018-05-09_16-10-49,1525862449781,Wed May  9 16:10:49 2018,Sequential Write Tests with Queue Depth=1 by Block Size
+Seq,100,65536,1,1,8941,558.80,0.0,110.901563969,2018-05-09_16-13-00,1525862580895,Wed May  9 16:13:00 2018,Sequential Write Tests with Queue Depth=1 by Block Size
+Seq,100,131072,1,1,5166,645.77,0.0,192.19725514,2018-05-09_16-15-11,1525862711998,Wed May  9 16:15:11 2018,Sequential Write Tests with Queue Depth=1 by Block Size
+Rand,50,4096,1,1,22569,88.16,52.429888376,34.831918659,2018-05-09_16-17-23,1525862843086,Wed May  9 16:17:23 2018,Sustained 4KB Random mixed 50% Write Tests by Threads
+Rand,50,4096,2,1,43159,168.59,54.976922687,36.413289255,2018-05-09_16-19-34,1525862974206,Wed May  9 16:19:34 2018,Sustained 4KB Random mixed 50% Write Tests by Threads
+Rand,50,4096,4,1,83058,324.45,58.861875762,36.335238413,2018-05-09_16-21-45,1525863105334,Wed May  9 16:21:45 2018,Sustained 4KB Random mixed 50% Write Tests by Threads
+Rand,50,4096,8,1,155817,608.66,66.274541558,35.276981267,2018-05-09_16-23-56,1525863236434,Wed May  9 16:23:56 2018,Sustained 4KB Random mixed 50% Write Tests by Threads
+Rand,50,4096,16,1,271930,1062.23,81.0396407,35.360377382,2018-05-09_16-26-07,1525863367560,Wed May  9 16:26:07 2018,Sustained 4KB Random mixed 50% Write Tests by Threads
+Rand,50,4096,32,1,454893,1776.93,103.343387982,36.038930052,2018-05-09_16-28-18,1525863498682,Wed May  9 16:28:18 2018,Sustained 4KB Random mixed 50% Write Tests by Threads
+Rand,50,4096,64,1,707374,2763.18,138.652364487,40.754152798,2018-05-09_16-30-29,1525863629846,Wed May  9 16:30:29 2018,Sustained 4KB Random mixed 50% Write Tests by Threads
+Rand,0,4096,1,1,17471,68.24,56.4431788,0.0,2018-05-09_16-32-40,1525863760913,Wed May  9 16:32:40 2018,Sustained 4KB Random Read Tests by Number of Threads
+Rand,0,4096,2,1,34884,136.27,56.758530629,0.0,2018-05-09_16-34-52,1525863892036,Wed May  9 16:34:52 2018,Sustained 4KB Random Read Tests by Number of Threads
+Rand,0,4096,4,1,69251,270.51,57.204575063,0.0,2018-05-09_16-37-03,1525864023167,Wed May  9 16:37:03 2018,Sustained 4KB Random Read Tests by Number of Threads
+Rand,0,4096,8,1,138890,542.54,57.049892567,0.0,2018-05-09_16-39-14,1525864154283,Wed May  9 16:39:14 2018,Sustained 4KB Random Read Tests by Number of Threads
+Rand,0,4096,16,1,285769,1116.28,55.472348972,0.0,2018-05-09_16-41-25,1525864285411,Wed May  9 16:41:25 2018,Sustained 4KB Random Read Tests by Number of Threads
+Rand,0,4096,32,1,558100,2180.08,56.7676367,0.0,2018-05-09_16-43-36,1525864416528,Wed May  9 16:43:36 2018,Sustained 4KB Random Read Tests by Number of Threads
+Rand,0,4096,64,1,949108,3707.45,66.68445505,0.0,2018-05-09_16-45-47,1525864547688,Wed May  9 16:45:47 2018,Sustained 4KB Random Read Tests by Number of Threads
+Rand,100,4096,1,1,30038,117.34,0.0,32.855338921,2018-05-09_16-47-58,1525864678724,Wed May  9 16:47:58 2018,Sustained 4KB Random Write Tests by Number of Threads
+Rand,100,4096,2,1,58767,229.56,0.0,33.524175449,2018-05-09_16-50-09,1525864809845,Wed May  9 16:50:09 2018,Sustained 4KB Random Write Tests by Number of Threads
+Rand,100,4096,4,1,113165,442.05,0.0,34.840099099,2018-05-09_16-52-20,1525864940948,Wed May  9 16:52:20 2018,Sustained 4KB Random Write Tests by Number of Threads
+Rand,100,4096,8,1,226676,885.45,0.0,34.700865382,2018-05-09_16-54-32,1525865072064,Wed May  9 16:54:32 2018,Sustained 4KB Random Write Tests by Number of Threads
+Rand,100,4096,16,1,451154,1762.32,0.0,34.782459218,2018-05-09_16-56-43,1525865203186,Wed May  9 16:56:43 2018,Sustained 4KB Random Write Tests by Number of Threads
+Rand,100,4096,32,1,784822,3065.71,0.0,40.089222786,2018-05-09_16-58-54,1525865334323,Wed May  9 16:58:54 2018,Sustained 4KB Random Write Tests by Number of Threads
+Rand,100,4096,64,1,1098416,4290.69,0.0,57.366540074,2018-05-09_17-01-05,1525865465467,Wed May  9 17:01:05 2018,Sustained 4KB Random Write Tests by Number of Threads

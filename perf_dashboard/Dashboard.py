@@ -39,8 +39,6 @@ def ParseArgs():
     * All the result folder are located in the present working directory, which this script is present
     \n\n
     """)
-    # parser.add_argument("--resultFolders", "-f", dest = "result_folders",
-    #     help="Provide Test Result Folder Seperated by space", required=True)
     parser.add_argument("--resultFolders", "-f", dest = "result_folders",
         help="Provide Test Result Folder Seperated by space", required=False,
         default=" ".join(result_folders))
@@ -161,31 +159,6 @@ def perf_dash(all_data, regression_summary):
                                               className="six columns"),
                                     html.Div([ dcc.Graph(id=data, figure=graph_fig[data])   for data in graph_fig])
                         ])
-
-
-
-    # Update page
-    # @app.callback(dash.dependencies.Output('page-content', 'children'),
-    #               [dash.dependencies.Input('url', 'pathname')])
-    # def display_page(pathname):
-    #     if pathname == '/' or pathname == '/overview':
-    #         return overview
-    #
-    # external_css = ["https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css",
-    #                 "https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css",
-    #                 "//fonts.googleapis.com/css?family=Raleway:400,300,600",
-    #                 "https://codepen.io/bcd/pen/KQrXdb.css",
-    #                 "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"]
-    #
-    # for css in external_css:
-    #     app.css.append_css({"external_url": css})
-    #
-    # external_js = ["https://code.jquery.com/jquery-3.2.1.min.js",
-    #                "https://codepen.io/bcd/pen/YaXojL.js"]
-
-    # for js in external_js:
-    #     app.scripts.append_script({"external_url": js})
-
 
 
 # Starts Here,
